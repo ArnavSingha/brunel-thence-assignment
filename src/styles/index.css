@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Manrope;
+}
+* {
+  box-sizing: border-box;
+  line-height: normal;
+  font-family: inherit;
+  margin: unset;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+input {
+  background-color: transparent;
+  width: 100%;
+}
+input:focus {
+  outline: none;
+}
+
+.gray_800_01_gray_800_00_border {
+  border-image: linear-gradient(165deg, #3c3c3c, #3c3c3c00) 1;
+}
